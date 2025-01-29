@@ -1,6 +1,6 @@
 #include "pch.h"
 #include "CppUnitTest.h"
-#include "C:\Users\Bre\source\repos\HelloWorld\HelloWorld\HelloWorld.h"
+#include "..\HelloWorld\HelloWorld.h"
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace FixedGroupProjectTravBre
