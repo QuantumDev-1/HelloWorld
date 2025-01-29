@@ -5,8 +5,9 @@
 #include "HelloWorld.h"
 
 
-void HelloWorld::ShowMessage(std::string text) {
+std::string HelloWorld::ShowMessage(std::string text) {
 	std::cout << text << std::endl;
+	return text;
 }
 
 int main()
