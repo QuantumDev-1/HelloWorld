@@ -2,14 +2,14 @@
 #include <string>
 class HelloWorld
 {
-	std::string message;
+	
 
 public:
+	std::string message;
 
-	HelloWorld() {
+	HelloWorld();
+	HelloWorld(HelloWorld object, std::string text);
 
-	}
-
-	void ShowMessage(std::string text);
+	void ShowMessage();
 };
 
