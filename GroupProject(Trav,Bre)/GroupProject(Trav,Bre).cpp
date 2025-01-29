@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "CppUnitTest.h"
+#include "..\HelloWorld\HelloWorld.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -9,9 +10,14 @@ namespace GroupProjectTravBre
 	{
 	public:
 		
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(TestShowMessage)
 		{
-			HelloWorld object;
+			HelloWorld objectTest1, objectTest2;
+			std::string test1, test2;
+
+			std::string Hello_ = "Hello World!";
+
+			objectTest1.TestShowMessage(Hello_); //This is still taking from void ShowMessage?
 
 		}
 	};

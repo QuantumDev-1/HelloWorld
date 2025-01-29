@@ -9,7 +9,5 @@ public:
 	HelloWorld() {
 
 	}
-
 	std::string ShowMessage(std::string text);
 };
-
