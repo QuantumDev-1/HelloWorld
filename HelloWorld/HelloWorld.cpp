@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
+#include "HelloWorld.h"
+
+void HelloWorld::ShowMessage() {
+	message = "Hello World";
+	std::cout << message << std::endl;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	HelloWorld helloWorld;
+	helloWorld.ShowMessage();
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
