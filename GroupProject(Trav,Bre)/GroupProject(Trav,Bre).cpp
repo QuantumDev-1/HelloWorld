@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "CppUnitTest.h"
+#include "..\HelloWorld\HelloWorld.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
