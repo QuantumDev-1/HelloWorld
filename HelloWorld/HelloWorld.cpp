@@ -4,15 +4,15 @@
 #include <iostream>
 #include "HelloWorld.h"
 
-void HelloWorld::ShowMessage() {
-	message = "Hello World";
-	std::cout << message << std::endl;
+
+void HelloWorld::ShowMessage(std::string text) {
+	std::cout << text << std::endl;
 }
 
 int main()
 {
 	HelloWorld helloWorld;
-	helloWorld.ShowMessage();
+	helloWorld.ShowMessage("Hello World!");
 	return 0;
 }
 

@@ -10,6 +10,6 @@ public:
 
 	}
 
-	void ShowMessage();
+	void ShowMessage(std::string text);
 };
 
