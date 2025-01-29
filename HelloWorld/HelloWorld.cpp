@@ -3,17 +3,17 @@
 
 #include <iostream>
 #include "HelloWorld.h"
-HelloWorld::HelloWorld(HelloWorld object,std::string text) : message(text) {
-}
-void HelloWorld::ShowMessage() {
-	std::cout << message << std::endl;
+
+
+std::string HelloWorld::ShowMessage(std::string text) {
+	std::cout << text << std::endl;
+	return text;
 }
 
 int main()
 {
 	HelloWorld helloWorld;
-	helloWorld.message = "Hello World!";
-	helloWorld.ShowMessage();
+	helloWorld.ShowMessage("Hello World!");
 	return 0;
 }
 
