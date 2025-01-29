@@ -11,6 +11,7 @@ namespace GroupProjectTravBre
 		
 		TEST_METHOD(TestMethod1)
 		{
+			void ShowMessage();
 		}
 	};
 }
