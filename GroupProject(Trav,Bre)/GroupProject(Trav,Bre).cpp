@@ -5,13 +5,14 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace GroupProjectTravBre
 {
-	TEST_CLASS(GroupProjectTravBre)
+	TEST_CLASS(HelloWorld)
 	{
 	public:
 		
 		TEST_METHOD(TestMethod1)
 		{
-			void ShowMessage();
+			HelloWorld object;
+
 		}
 	};
 }
