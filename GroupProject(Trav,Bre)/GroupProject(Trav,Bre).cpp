@@ -10,9 +10,14 @@ namespace GroupProjectTravBre
 	{
 	public:
 		
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(ShowMessage)
 		{
-			HelloWorld object;
+			HelloWorld objectTest1, objectTest2;
+			std::string test1, test2;
+
+			std::string Hello_ = "Hello World!";
+
+			objectTest1.ShowMessage(); //This is still taking from void ShowMessage?
 
 		}
 	};
