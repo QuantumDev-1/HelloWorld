@@ -5,8 +5,6 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{A4964CE2-82F1-489D-8005-F985CB845915}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GroupProject(Trav,Bre)", "GroupProject(Trav,Bre)\GroupProject(Trav,Bre).vcxproj", "{5D8CBDD6-4FD4-415F-BAA2-054B6C0C679E}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FixedGroupProjectTravBre", "FixedGroupProjectTravBre\FixedGroupProjectTravBre.vcxproj", "{C8CF037A-79B8-4D93-BE2C-F0735DFDD4A0}"
 EndProject
 Global
@@ -25,14 +23,6 @@ Global
 		{A4964CE2-82F1-489D-8005-F985CB845915}.Release|x64.Build.0 = Release|x64
 		{A4964CE2-82F1-489D-8005-F985CB845915}.Release|x86.ActiveCfg = Release|Win32
 		{A4964CE2-82F1-489D-8005-F985CB845915}.Release|x86.Build.0 = Release|Win32
-		{5D8CBDD6-4FD4-415F-BAA2-054B6C0C679E}.Debug|x64.ActiveCfg = Debug|x64
-		{5D8CBDD6-4FD4-415F-BAA2-054B6C0C679E}.Debug|x64.Build.0 = Debug|x64
-		{5D8CBDD6-4FD4-415F-BAA2-054B6C0C679E}.Debug|x86.ActiveCfg = Debug|Win32
-		{5D8CBDD6-4FD4-415F-BAA2-054B6C0C679E}.Debug|x86.Build.0 = Debug|Win32
-		{5D8CBDD6-4FD4-415F-BAA2-054B6C0C679E}.Release|x64.ActiveCfg = Release|x64
-		{5D8CBDD6-4FD4-415F-BAA2-054B6C0C679E}.Release|x64.Build.0 = Release|x64
-		{5D8CBDD6-4FD4-415F-BAA2-054B6C0C679E}.Release|x86.ActiveCfg = Release|Win32
-		{5D8CBDD6-4FD4-415F-BAA2-054B6C0C679E}.Release|x86.Build.0 = Release|Win32
 		{C8CF037A-79B8-4D93-BE2C-F0735DFDD4A0}.Debug|x64.ActiveCfg = Debug|x64
 		{C8CF037A-79B8-4D93-BE2C-F0735DFDD4A0}.Debug|x64.Build.0 = Debug|x64
 		{C8CF037A-79B8-4D93-BE2C-F0735DFDD4A0}.Debug|x86.ActiveCfg = Debug|Win32
