@@ -1,10 +1,11 @@
 // HelloWorld.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
 #include <iostream>
 #include "HelloWorld.h"
 
 
+
+HelloWorld::HelloWorld() {};
 std::string HelloWorld::ShowMessage(std::string text) {
 	std::cout << text << std::endl;
 	return text;
@@ -16,6 +17,7 @@ int main()
 	helloWorld.ShowMessage("Hello World!");
 	return 0;
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
