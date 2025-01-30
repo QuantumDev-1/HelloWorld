@@ -5,15 +5,15 @@
 #include "HelloWorld.h"
 
 
-std::string HelloWorld::ShowMessage(std::string text) {
-	std::cout << text << std::endl;
-	return text;
+std::string HelloWorld::ShowMessage() {
+	message = "Hello World!";
+	return message;
 }
 
 int main()
 {
 	HelloWorld helloWorld;
-	helloWorld.ShowMessage("Hello World!");
+	helloWorld.ShowMessage();
 	return 0;
 }
 
